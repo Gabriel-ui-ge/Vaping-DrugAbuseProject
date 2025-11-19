@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Mono;
+    src: url(MonospaceTypewriter.ttf);
+    }
+    
+    body {
+    font-family: 'Mono';
+    font-size: x-large;
+    }
+    
+    .photo-box {
+    width: 370px; 
+    border: 20px solid aliceblue;
+    padding: 10px;
+    margin: 20px;
+    }
+    
+    .left {
+    float: left;
+    text-align: left; 
+    }
+    
+    .right {
+    float: right;
+    text-align: right; 
+    }
+    
+    .photo-box img {
+    display: block;
+    margin: 0 auto;
+    }
+    
+    .photo-box p {
+    margin-top: 10px;
+    }
+    
+    .clearfix {
+    clear: both;
+    }
